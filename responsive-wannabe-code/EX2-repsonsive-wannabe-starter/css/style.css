@@ -166,3 +166,40 @@ img {
     }
 }
 
+@media screen and (min-width: 768px) and (max-width:1160px){
+    section{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+
+    /* LESSON SECTION */
+    /* flex-direction column */
+    
+    /* STEPS SECTION */
+    .steps .container .row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .steps .container .row .col{
+        width: 40%;
+        margin-bottom: 1em;
+    }
+
+    /* WHY-US SECTION */
+    div.col-left{
+        width: 30%;
+    }
+    div.col-right{
+        width: 50%;
+    }
+
+    /* div.col-right>ul{
+        padding: 0 5rem;
+        display: flex;
+    } */
+    /* modificare section 30%/60%
+        ul padding 0 5rem
+         */
+}
